@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #1D4F65;
+    
+}
+
+.header{
+    background-color: #FDB515;
+    margin: 0px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escritaLogo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    color: white;
+    margin: 2%;
+    margin-bottom: 0%;
+}
+
+.grupo{
+    font-size: 1.7em;
+    margin: 0px;
+}
+
+.open{
+    font-size: 4em;
+    margin: 0px;
+}
+
+.imgLogos{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.logoRenault, .logoHyundai, .logoMitsubish{
+    width: 4vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background-color: #1D4F65;
+}
+
+.titulo{
+    font-family: 'inter';
+    color: white;
+    font-size: 30px;
+    margin: 1%;
+    margin-bottom: 4%;
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60vw;
+    gap: 1%;
+}
+
+.botaoRamal, .botaoInformativo,
+.botaoConvenio, .botaoPonto,
+.botaoNormas, .botaoSobre,
+.botaoHyundai, .botaoRenault,
+.botaoMitsubish{
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: white;
+    font-family: 'inter';
+    color: white;
+    font-size: 25px;
+    width: 15vw;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.botaoRamal:hover, .botaoInformativo:hover,
+.botaoConvenio:hover, .botaoPonto:hover,
+.botaoNormas:hover, .botaoSobre:hover,
+.botaoHyundai:hover, .botaoRenault:hover,
+.botaoMitsubish:hover{
+    box-shadow: inset 0 0 120px #888888;
+}
+
+footer{
+    background-color: #1D4F65;
+}
+
+.fundoFooter{
+    display: flex;
+    justify-content: center;
+    background-color: #FDB515;
+    
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.creditos{
+    font-family: 'inter';
+    font-size: 20px;
+    margin: 2%;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.informativos{
+    width: 20vw;
+    font-family: 'inter';
+    font-size: 15px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.imgInformativo{
+    width: 18vw;
+}
+
+.quadroInformativos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75vw;
+}
+
+.tituloMateria{
+    font-size: 20px;
+}
+
+.informativos:hover{
+    box-shadow: inset 0 0 80px #888888;
+}
